@@ -14,6 +14,15 @@ class Movie{
         $this->director = $_director;
         $this->rating = $_rating;
     }
+
+    public function display(){
+        echo '<p> Title:' . $this->title . '</p>';
+        echo '<p> Genre:' . $this->genre .'</p>';
+        echo '<p> Release year:' . $this->releaseYear . '</p>';
+        echo '<p> Director by:' . $this->director . '</p>';
+        echo '<p> Rating:' . $this->rating . '</p>';
+
+    }
 } 
 
 ?>
