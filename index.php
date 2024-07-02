@@ -1,6 +1,7 @@
 <?php 
 
 require_once __DIR__ . '/class/Movie.php';
+require_once __DIR__ . '/class/Genre.php';
 
 $scream = new Movie ("Scream", "Horror", 1996, "Wes Craven", "7.4/10");
 
